@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const API_URL = "https://fastapi-example-hlnn.onrender.com";
+const API_URL = import.meta.env.VITE_API_URL;
 
 function App() {
   const [form, setForm] = useState({
